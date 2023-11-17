@@ -1,10 +1,10 @@
 import xbmcaddon, xbmcgui, xbmcvfs
-import re, os, sys, urllib2, urlparse
-import mechanize, threading
+import re, os, sys, urllib.request, urllib.error, urllib.parse
+import mechanize, threading, traceback
 from htmltoxbmc import HTMLConverter
 
-# Plugin and Kodi version info
-__addon__ = xbmcaddon.Addon(id='script.web.kodiwebview')
+# Plugin and Kodi version info "script.web.viewer
+__addon__ = xbmcaddon.Addon(id='script.web.viewer')
 __version__ = '0.0.1'
 KODI_VERSION_MAJOR = int(xbmc.getInfoLabel('System.BuildVersion').split('.', 1)[0])
 
