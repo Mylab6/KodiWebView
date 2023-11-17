@@ -2,7 +2,7 @@
 <addon id="script.web.viewer" name="Web Viewer" version="0.9.21" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.mechanize" version="0.4.5" />
+        <import addon="script.module.mechanize" version="0.4.9" />
     </requires>
     <extension point="xbmc.python.script" library="lib/webviewer/webviewer.py">
         <provides>executable</provides>
