@@ -1,6 +1,6 @@
 script.web.viewer
 =================
-
+Not currently working 
 WebViewer addon for Kodi (XBMC) - browse web pages from Kodi with a sad text interface
 -------------------------------------------------------------------------------
 This addon allows viewing web pages in a sequential text view. It supports playing video links via the youtube-dl module.
